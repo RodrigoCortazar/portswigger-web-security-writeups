@@ -39,3 +39,13 @@ Para la explotacion se intercepto la request a travez de burpsuit y se modifico 
 Una vez subido el WebShell se accedio a la ruta `/files/avatars/webshell.php` y se obtuvo el contenido del archivo objetivo:
 
 ![Obtencion objetivo](screenshots/obtencionObjetivo.png)
+
+---
+
+## Script de Explotacion automatizado
+
+Nota( El script está configurado para utilizar Burp Suite como proxy (127.0.0.1:8080) para poder ver el flujo de las peticiones. )
+
+### Ejemplo de uso
+
+![Script](screenshots/script.png)
