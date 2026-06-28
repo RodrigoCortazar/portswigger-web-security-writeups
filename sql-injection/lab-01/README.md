@@ -31,3 +31,17 @@ Solo se tiene que modificar el valor enviado en el parametro `category`, agregan
 ![Explotacion](screenshots/explotacion.png)
 
 
+## Script de explotacion
+
+Otorgar permisos de ejecucion
+```bash
+chmod u+x script.py
+```
+Uso:
+```bash
+./script.py <url>
+```
+Ejemplo:
+
+![Script](screenshots/script.png)
+
