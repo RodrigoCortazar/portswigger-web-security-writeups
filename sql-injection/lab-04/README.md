@@ -30,3 +30,19 @@ Para la obtencion de la version, se consulto la variable `@@version` inyectando 
 ![Explotacion](screenshots/Explotacion.png)
 
 
+## Scripts de explotacion
+
+### Script Bash
+
+Otorgar permisos de ejecucion:
+```bash
+chmod u+x script.sh
+```
+Uso:
+```bash
+./script.sh <url>
+```
+
+Ejemplo:
+
+![ScriptBash](screenshots/bashScript.png)
