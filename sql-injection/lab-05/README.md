@@ -55,3 +55,19 @@ Para la obtencion de las credenciasles, se inyecto `Gifts'+UNION+SELECT+username
 
 ![credenciales](screenshots/credenciales.png)
 
+## Scripts de explotacion
+
+### Script Bash
+
+Otorgar permisos de ejecucion:
+```bash
+chmod u+x script.sh
+```
+Uso:
+```bash
+./script.sh <url>
+```
+
+Ejemplo:
+
+![ScriptBash](screenshots/script.png)
