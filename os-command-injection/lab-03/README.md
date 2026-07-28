@@ -1,4 +1,4 @@
-# Blind OS command injection with output redirection
+# Lab: Blind OS command injection with output redirection
 
 ## Objetivo
 
